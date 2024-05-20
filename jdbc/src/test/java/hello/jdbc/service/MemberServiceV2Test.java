@@ -1,7 +1,6 @@
 package hello.jdbc.service;
 
 import hello.jdbc.domain.Member;
-import hello.jdbc.repository.MemberRepositoryV1;
 import hello.jdbc.repository.MemberRepositoryV2;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.AfterEach;
@@ -45,7 +44,7 @@ class MemberServiceV2Test {
 
     @Test
     @DisplayName("정상 이체")
-    void accountTransfer() throws SQLException, IllegalAccessException {
+    void accountTransfer() throws SQLException {
         // given
         Member memberA = new Member(MEMBER_A, 10000);
         Member memberB = new Member(MEMBER_B, 10000);
