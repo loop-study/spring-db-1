@@ -15,6 +15,17 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/itemservice-db" />
+        <option name="gradleHome" value="/usr/local/Cellar/gradle/8.1.1/libexec" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/itemservice-db" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/jdbc" />
         <option name="gradleHome" value="/usr/local/Cellar/gradle/8.1.1/libexec" />
         <option name="modules">
